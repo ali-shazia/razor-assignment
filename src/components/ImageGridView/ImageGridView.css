@@ -1,0 +1,81 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-info {
+  position: absolute;
+  width: 100%;
+  bottom: 5px;
+}
+
+/* ImageCard */
+.image {
+  vertical-align: middle;
+}
+
+.image-profile {
+  height: 32px;
+  width: 32px;
+}
+
+.image-fit {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.image-round {
+  border-radius: 50%;
+}
+
+.round-border {
+  border-radius: 0.3rem !important;
+}
+
+.hide-on-small {
+  display: none;
+}
+
+.small-text {
+  font-size: 11px;
+}
+
+@media (max-width: 576px) {
+  .hide-on-small {
+    display: inline;
+  }
+  .small-text {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hide-on-small {
+    display: inline;
+  }
+}
+
+@media (min-width: 992px) {
+  .small-text {
+    font-size: 14px;
+  }
+}
+
+.username-overlay {
+  margin-left: 2px !important;
+}
+
+.white-text {
+  color: #fff !important;
+}
+
+.blue-text {
+  color: #0d6efd !important;
+}
