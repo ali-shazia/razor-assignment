@@ -1,7 +1,7 @@
 ## Razor assignment
 
 #### Project is live at
-__https://7eb2w.csb.app/Duw5ar5wElg__
+__https://7eb2w.csb.app__
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
